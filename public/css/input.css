@@ -1,0 +1,24 @@
+
+.inputfile {
+	width:0.1px;
+	height:0.1px;
+	opacity: o;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+	color: white;
+	background-color: rgb(231,76,60);
+	display: inline-block;
+	cursor:pointer;
+	padding:20px;
+	border-radius:5px
+}
+.input:focus + label,
+.inputfile + label:hover {
+	background-color: rgb(192,57,43);
+}
